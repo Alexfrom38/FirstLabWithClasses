@@ -1,6 +1,6 @@
 #pragma once
-#include "FirstRobot.h"
-#include <string>
+#include"FirstRobot.h"
+#include<string>
 class TBostonDynamics : public TFirstRobot
 {
 public:

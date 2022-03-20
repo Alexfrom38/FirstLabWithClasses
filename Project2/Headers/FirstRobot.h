@@ -1,6 +1,12 @@
 #pragma once
-#include "EnumMaterial.h"
-#include <string>
+#include<string>
+enum Material
+{
+	steel,
+	Al,
+	Ti,
+	Vs
+};
 
 
 class TFirstRobot
@@ -21,7 +27,7 @@ public:
 	void SetName(std::string NewName);
 	void SetHeight(int height);
 
-	virtual void Foo();
+	virtual void Foo() ;
 
 protected:
 	Material material;

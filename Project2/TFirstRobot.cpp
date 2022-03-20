@@ -1,5 +1,5 @@
 #include "FirstRobot.h"
-#include<iostream>
+#include <iostream>
 
 int TFirstRobot::GetHeight()
 {
@@ -8,7 +8,7 @@ int TFirstRobot::GetHeight()
 
 int TFirstRobot::GetYear()
 {
-	return 0;
+	return year;
 }
 
 Material TFirstRobot::GetMaterial()
@@ -29,7 +29,7 @@ TFirstRobot::TFirstRobot()
 
 std::string TFirstRobot::GetName()
 {
-	return std::string();
+	return name;
 }
 
 void TFirstRobot::SetMaterial(Material NewM)
@@ -46,3 +46,16 @@ void TFirstRobot::SetName(std::string NewName)
 {
 	name = NewName;
 }
+
+void TFirstRobot::SetHeight(int height)
+{
+	this->height = height;
+}
+
+void TFirstRobot::Foo()
+{
+	std::cout << "I'm TFirstRobot" << ' ' << this << std::endl;
+
+}
+
+

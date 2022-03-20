@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Исходные файлы\Enums">
+      <UniqueIdentifier>{bfa6a662-4ebf-47b3-bc54-f3a887e257c7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FirstRobot.h">
@@ -27,8 +30,29 @@
     <ClInclude Include="Autobots.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="WarRobots.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimus.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumMaterial.h">
+      <Filter>Исходные файлы\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumGuns.h">
+      <Filter>Исходные файлы\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Megatrone.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="SetOfRobots.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="WarRobots.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
     <ClCompile Include="TFirstRobot.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
@@ -36,6 +60,21 @@
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="BostonDynamics.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Autobots.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Decepticons.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Megatrone.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimus.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="SetOfRobots.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

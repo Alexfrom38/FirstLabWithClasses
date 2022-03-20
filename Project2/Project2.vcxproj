@@ -143,11 +143,23 @@
     <ClInclude Include="Decepticons.h" />
     <ClInclude Include="FirstRobot.h" />
     <ClInclude Include="BostonDynamics.h" />
+    <ClInclude Include="EnumGuns.h" />
+    <ClInclude Include="EnumMaterial.h" />
+    <ClInclude Include="Megatrone.h" />
+    <ClInclude Include="Optimus.h" />
+    <ClInclude Include="SetOfRobots.h" />
+    <ClInclude Include="WarRobots.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Autobots.cpp" />
     <ClCompile Include="BostonDynamics.cpp" />
+    <ClCompile Include="Decepticons.cpp" />
+    <ClCompile Include="Megatrone.cpp" />
+    <ClCompile Include="Optimus.cpp" />
+    <ClCompile Include="SetOfRobots.cpp" />
     <ClCompile Include="TFirstRobot.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="WarRobots.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
